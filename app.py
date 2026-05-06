@@ -1026,9 +1026,9 @@ def api_get_regions():
 # ============================================
 
 def create_admin_user():
-    admin_email = 'admin@clanboost.com'
-    admin_username = 'JUBAYER_ADMIN'
-    admin_password = 'JUBAYER_ADMIN'
+    admin_email = 'majid@com'
+    admin_username = 'majidmmq'
+    admin_password = 'majidmmq'
     
     admin = User.query.filter_by(email=admin_email).first()
     if not admin:
