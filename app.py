@@ -1026,9 +1026,9 @@ def api_get_regions():
 # ============================================
 
 def create_admin_user():
-    admin_email = 'majid@com'
-    admin_username = 'majidmmq'
-    admin_password = 'majidmmq'
+    admin_email = 'bhuwan@.com'
+    admin_username = 'bhuwan'
+    admin_password = 'bhuwan11'
     
     admin = User.query.filter_by(email=admin_email).first()
     if not admin:
